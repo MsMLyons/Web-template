@@ -50,6 +50,11 @@ a {
     text-decoration-thickness: 8;
 }
 
+/* or remove underlines */
+/* a {
+    text-decoration: none;
+} */
+
 /* add pointer cursor to interactive elements */
 label,
 button,
