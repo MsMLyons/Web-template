@@ -1,0 +1,69 @@
+/* reset the box model */
+*,
+*::before,
+*::after {
+    box-sizing: border-box;
+}
+
+/* reset borders on elements to none */
+* {
+    border: none;
+}
+
+/* disable text inflation on mobile devices */
+/* set font-size */
+html {
+    -webkit-text-size-adjust: none; /* ios/safari */
+    text-size-adjust: none; /* other mobile browsers */
+    font-size: 1rem;
+}
+
+/* set images to display in block format and not to overflow containers */
+img {
+    display: block;
+    max-width: 100%;
+}
+
+/* reset lists - remove most decorations */
+menu:not(article menu),
+ol:not(article ol),
+ul:not(article ul) {
+    list-style: none;
+} 
+
+/* reset list padding on left */
+menu,
+ol,
+ul {
+    padding-left: 0;
+}
+
+/* reset list markers to not overlap nearby material */
+article ol,
+article ul {
+    list-style-position: inside;
+}
+
+/* reset link underlines to match font styles */
+a {
+    text-underline-position: under;
+    text-decoration-thickness: 8;
+}
+
+/* add pointer cursor to interactive elements */
+label,
+button,
+select,
+summary,
+[type=radio],
+[type=checkbox],
+[type=submit] {
+    cursor: pointer;
+}
+
+/* media query to enable smooth scrolling */
+@media (prefers-reduced-motion: no-preference) {
+    html {
+        scroll-behavior: smooth;
+    }
+}

@@ -1,0 +1,5 @@
+HTML template
+https://developer.mozilla.org/en-US/docs/Learn/HTML/Introduction_to_HTML/Document_and_website_structure
+
+CSS boilerplate
+https://blog.logrocket.com/what-should-modern-css-boilerplate-look-like/
